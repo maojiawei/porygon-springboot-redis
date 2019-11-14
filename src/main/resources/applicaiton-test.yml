@@ -1,0 +1,17 @@
+server:
+  port: 8092
+spring:
+  redis:
+    host: 10.101.12.44
+    port: 6379
+    timeout: 60000
+    database: 4
+    password: 2d68oM3KU87Yhd
+    pool:
+      #最小活动连接数
+      min-idle: 10
+      #最大可连接数
+      max-active: 600
+      #新建连接等待超时时间（毫秒）
+      max-wait: 10000
+      max-idle: 100
